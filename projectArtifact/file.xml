@@ -1,0 +1,119 @@
+﻿<?xml version="1.0"?>
+<ManagementSystem>
+    <Authors>
+        <Author id="a1">
+            <FirstName>Miucin</FirstName>
+            <LastName>Sebastian</LastName>
+        </Author>
+        <Author id="a2">
+            <FirstName>Petre</FirstName>
+            <LastName>Vladimir</LastName>
+        </Author>
+        <Author id="a3">
+            <FirstName>Crapu</FirstName>
+            <LastName>Andrei</LastName>
+        </Author>
+        <Author id="a4">
+            <FirstName>Alina</FirstName>
+            <LastName>Nicula</LastName>
+        </Author>
+        <Author id="a5">
+            <FirstName>Uzzi</FirstName>
+            <LastName>Pantelimon</LastName>
+        </Author>
+    </Authors>
+    <Universities>
+        <University name="UVT" id="u1">
+            <Faculty name="Matematica si Informatica" id="f1">
+                <Department id="fmid1">
+                    <name>Matematica</name>
+                    <authorId>a3</authorId>
+                    <authorId>a5</authorId>
+                    <authorId>a1</authorId>
+                </Department>
+                <Department id="fmid2">
+                    <name>Informatica</name>
+                    <authorId>a4</authorId>
+                </Department>
+            </Faculty>
+            <Faculty name="Arte" id="f2">
+                <Department id="arted1">
+                    <name>Design</name>
+                    <authorId>a1</authorId>
+                </Department>
+                <Department id="arted1">
+                    <name>Desen</name>
+                    <authorId>a2</authorId>
+                </Department>
+            </Faculty>
+        </University>
+    </Universities>
+    <Articles>
+        <Article id="art1" type="jurnal">
+            <authorId>a1</authorId>
+            <title>Title author 1</title>
+            <name>Iarna internetului</name>
+            <year>2004</year>
+	    <departmentId>arted1</departmentId>
+            <citations>
+                <url>www.google.ro</url>
+                <url>www.youtube.com</url>
+            </citations>
+            <rating>4.4</rating>
+	    <DOI>96.2237/2121675326262012</DOI>
+        </Article>
+        <Article id="art2" type="conferinta">
+	    <authorId>a1</authorId>
+            <name>Primavara serialelor</name>
+            <authorId>a2</authorId>
+            <title>Title author 2</title>
+            <year>1997</year>
+      	    <departmentId>arted2</departmentId>
+            <citations>
+                <url>www.test.ro</url>
+                <url>www.netflix.com</url>
+            </citations>
+	    <rating>4.0</rating>
+	    <DOI>19.4327/4322163436262006</DOI>
+        </Article>
+        <Article id="art3" type="jurnal">
+            <authorId>a3</authorId>
+            <title>Title author 3</title>
+            <name>Vara cartilor</name>
+            <year>2012</year>
+	    <departmentId>fmid1</departmentId>
+            <citations>
+                <url>www.ebook.ro</url>
+                <url>www.hboGO.com</url>
+            </citations>
+	    <rating>4.8</rating>
+	    <DOI>15.4217/1122167886761995</DOI>
+        </Article>
+        <Article id="art4" type="conferinta">
+            <authorId>a4</authorId>
+            <name>Toamna pirateriei</name>
+            <title>Title author 4</title>
+            <year>2017</year>
+	    <departmentId>fmid2</departmentId>
+            <citations>
+                <url>www.filelist.ro</url>
+                <url>www.scenefz.com</url>
+            </citations>
+	    <rating>3.7</rating>
+	    <DOI>10.1277/00224267886662015</DOI>
+        </Article>
+	<Article id="art5" type="jurnal">
+            <authorId>a5</authorId>
+            <name>Oare cat traim</name>s
+            <title>Viata noastra</title>
+            <year>2008</year>
+	    <departmentId>fmid2</departmentId>
+            <citations>
+                <url>www.bugmafia.ro</url>
+                <url>www.pantelimon.com</url>
+            </citations>
+	    <rating>4.3</rating>
+	    <DOI>10.1177/0022167886262002</DOI>
+        </Article>
+    </Articles>
+</ManagementSystem>
